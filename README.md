@@ -44,6 +44,6 @@ nodemailerTemplate(
     "This is email text"
 )
 ```
-Run your file in node, and the email will send!
+Run your file in node, and the email will send by gmail!
 
 
