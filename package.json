@@ -1,5 +1,5 @@
 {
-  "name": "nodemailer-template",
+  "name": "@thorwurtzner/nodemailer-template",
   "version": "1.0.0",
   "description": "An easy to use template for sending mails with the use of nodemailer",
   "main": "index.js",
