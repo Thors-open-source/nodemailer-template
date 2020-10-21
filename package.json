@@ -4,6 +4,7 @@
   "description": "An easy to use template for sending mails with the use of nodemailer",
   "main": "index.js",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "nodemailer": "^6.4.14"
   },
   "devDependencies": {},
