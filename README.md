@@ -10,10 +10,8 @@ npm i @thorwurtzner/nodemailer-template
 Create a file named .env and paste this
 
 ```javascript
-module.exports = {
-   username: "your-email-name-here",
-   password: "your-email-password-here"
-}
+EMAIL = "your-email-here"
+PASS = "your-email-password-here"
 ```
 
 The import is all ready in the script, and ofcourse keep your .env a secret, don't publish it!
