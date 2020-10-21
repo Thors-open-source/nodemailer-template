@@ -1,16 +1,13 @@
+require('dotenv').config();
+var nodemailer = require('nodemailer');
 
 function nodemailerTemplate(from, to, subject, text) {
-  var nodemailer = require('nodemailer');
-  var config = require('./secret')
-
-  var user = config.username;
-  var pass = config.password;
-
+  
   var transport = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: user,
-      pass: pass
+      user: process.env.EMAIL,
+      pass: process.env.PASS
     }
   });
 
