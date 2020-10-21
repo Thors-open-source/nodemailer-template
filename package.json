@@ -1,0 +1,28 @@
+{
+  "name": "nodemailer-template",
+  "version": "1.0.0",
+  "description": "An easy to use template for sending mails with the use of nodemailer",
+  "main": "index.js",
+  "dependencies": {
+    "nodemailer": "^6.4.14"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thors-open-source/nodemailer-template.git"
+  },
+  "keywords": [
+    "nodemailer",
+    "mail",
+    "sendmail"
+  ],
+  "author": "Thor Würtzner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Thors-open-source/nodemailer-template/issues"
+  },
+  "homepage": "https://github.com/Thors-open-source/nodemailer-template#readme"
+}
