@@ -7,7 +7,7 @@ npm i nodemailer
 ```
 Then install this package
 ```javascript
-npm i nodemailerTemplate
+npm i @thorwurtzner/nodemailer-template
 ```
 <br>
 
@@ -28,7 +28,7 @@ The import is all ready in the script, and ofcourse keep your secret.js a secret
 ## How to use
 
 ```javascript
-var nodemailerTemplate = require("nodemailer-template")
+var nodemailerTemplate = require("@thorwurtzner/nodemailer-template")
 
 nodemailerTemplate(
     // From
