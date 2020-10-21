@@ -1,6 +1,6 @@
 {
   "name": "@thorwurtzner/nodemailer-template",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "An easy to use template for sending mails with the use of nodemailer",
   "main": "index.js",
   "dependencies": {
